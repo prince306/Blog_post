@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(199, 198, 179);
+    padding: 5px;
+   
+}
+.logo{
+    align-items: center;
+    margin: 0 5px;
+    
+}
+.logo img{
+    max-width: 40%;
+}
+
+.buttonlist{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   column-gap: 10px;
+   margin: 0 5px;
+   
+}
+.myblog,.postblog ,.logout{
+    background: rgb(189, 86, 86);
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.login,.signup{
+    background: rgb(189, 86, 86);
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+/*-------------------sign up ---------------------------*/
+
+
+.signupdiv{
+    margin: 40px auto;
+    max-width: 60%;
+    border: 2px solid black;
+    box-shadow: 30px 30px 10px #a8a8a4;
+    vertical-align: middle;
+    background: skyblue;
+
+}
+
+h2{
+ text-align: center;    
+}
+
+div.email{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px ;    
+}
+
+.username,.password,.signupbutton{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px ;
+}
+.confirmPassword,.mobile{
+    margin: 10px;
+    padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px ;
+
+}
+.signupbutton button{
+    background: blue;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+input{
+    padding: 10px;
+}
+
+
+/*  home.css----------------------------------*/
+.myblogcontainer{
+    margin: 10px auto;
+    width: 60%;
+    background-color: #a8a8a4;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#searchForm{
+   display: flex;
+   justify-content: center;
+   background: red;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 10px;
+}
+#searchinput{
+    border-radius: 30px;
+    margin-right: 10px;
+}
+#searchButton{
+    background: #000;
+    padding: 5px;
+    color: whitesmoke;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.blog{
+    margin: 10px 10px ;
+    display: flex;
+    column-gap: 5px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    padding: 10px ;
+    max-height: 20%;
+}
+
+.imagediv{
+    width: 15%;
+    margin-right: 20px;
+}
+
+div.blog .imagediv img{
+    margin: 0;
+    padding: 0;     
+    max-width:100%;
+    box-shadow: 10px 10px 10px #a8a8a4; 
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 10px;
+}
+ul li{
+    margin: 5px;
+    padding: 5px;
+   
+}
+.blogcontent{
+    background: beige;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.active{
+    background: red;
+    color: #000;
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(83, 83, 109);
+    color: white;
+}
+
+
+/*----------------------login --------------------------*/
+
+
+.logindiv{
+    margin: 40px auto;
+    max-width: 60%;
+    border: 2px solid black;
+    box-shadow: 30px 30px 4px #a8a8a4;
+    vertical-align: middle;
+    background: skyblue;
+
+}
+h2{
+    text-align: center;
+}
+
+.username, .password,.loginbutton{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+.loginbutton button{
+    background: blue;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+input{
+    padding: 10px;
+}
+
+/*---------------postblog---------------------------------*/
+
+.postBlogContainer{
+    max-width:  70%;
+    margin-left: auto;
+    margin-right: auto;
+    background: burlywood;
+    border: 5px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 30px 30px 4px #757550;
+  
+}
+.postBlogContainer h2{
+    text-align: center;
+    /* font-weight: 700;
+    font-size: 20px; */
+
+}
+
+#blog_form input ,#blog_form textarea{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border: none;
+}
+
+#blog_form .status input{
+    display: inline;
+    max-width: 20px;
+    margin: 10px;
+    border: 2px solid black;
+}
+.status{
+    margin: 10px 0;
+}
+.blogsubmit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.blogsubmit #postButton{
+    text-align: center;
+    background: blue;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#postblog_image{
+    max-width: 50px;
+}
+/*-------------myblog--------------------------------*/
+
+#editButton{
+   text-decoration: none;
+   background-color: black;
+   color: white;
+   font-weight: 500;
+   border-radius: 5px;
+   border: none;
+    padding: 5px;
+    margin: 0 10px;
+    
+}
+   
+#deleteButton{
+    text-decoration: none;
+   background-color: black;
+   color: white;
+   font-weight: 500;
+   border-radius: 5px;
+   border: none;
+    padding: 5px;
+    
+}
+
+.blog{
+    background-color: aqua;
+}
+
+
+
+
+
+/*-----------------footer-------------------------------*/
+
+.footer{
+background: red;
+display: flex;
+justify-content: center;
+box-sizing: border-box;
+padding: 5px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+.footercontent{
+width: 80%;
+font-size:15px;
+font-weight: 600;
+margin:auto;
+padding: 10px;
+
+}
